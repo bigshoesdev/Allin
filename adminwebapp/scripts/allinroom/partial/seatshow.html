@@ -1,0 +1,19 @@
+﻿<div class="player-wrap">
+    <div class="player-cards" ng-class="{dealt: player.hasCards}">
+        <div class="pokercard" ng-show="seatOccupied(seatIndex)" ng-class="getCardClass( seatIndex, 0 )"></div>
+        <div class="pokercard" ng-show="seatOccupied(seatIndex)" ng-class="getCardClass( seatIndex, 1 )"></div>
+    </div>
+    <div class="seat" ng-show="seatOccupied(seatIndex)">
+        <div class="player-content" ng-show="player.name">
+            <div>
+                <span>{{player.name}}</span>
+                <span ng-show="player.sittingIn">{{player.chipsInPlay}}</span>
+                <span ng-show="!player.sittingIn">Sitting Out</span>
+            </div>
+        </div>
+    </div>
+    <div id="dealer-wrap-{{cellNumber}}" class="dealer-button" ng-show="dealerSeat===seatIndex">D</div>
+    <div id="bets-{{cellNumber}}" class="bets">
+        <span ng-show="player.bet">{{player.bet}}</span>
+    </div>
+</div>

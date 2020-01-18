@@ -1,0 +1,189 @@
+﻿body 
+{
+	font-size:9pt;
+	margin:0px;
+}
+a
+{
+    font-size: 9pt;
+}
+SPAN
+{
+	font-size: 9pt;
+	color:#444444;
+}
+A
+{
+	color:#444444;
+	text-decoration:none;
+}
+
+H4
+{
+	font-family:휴먼모음T;
+	color:#444444;
+}
+
+H5
+{
+	letter-spacing:-1;
+	font-family:맑은 고딕;
+	color:#3F639E;
+	font-size:10.5pt;
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+}
+
+.TopMenuItem
+{
+	padding-left:3px;
+	padding-right:5px;
+	font-size:10pt;
+	color:#1658A2;
+	font-weight:bold;
+	line-height:20px;
+}
+
+.SubMenuItem
+{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:3px;
+	padding-right:5px;
+	font-size:10pt;
+	background-color:#CBE4FD;
+	color:Black;
+}
+
+.PageBody{
+    border-width: 0px 0px 0px 0px;
+    border-color:#999999 ;
+    border-style:solid;
+    margin:0px 0px 0px 0px;
+    background-color:#ffffff;
+    color: #000000;
+    font-family:tahoma,arial,verdana,sans-serif; 
+    font-size:9pt; 
+    font-weight: normal;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    width:100%;
+}
+
+.clsSysTitle, clsSubTitle
+{
+	color:#222222;
+	font-size:13pt;
+	font-family:돋음, dotum, 굴림, gulim, Verdana;
+	letter-spacing:1pt;
+	font-weight:bold;
+}
+
+.clsSubTitle
+{
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.clsLineTable
+{
+	margin-top:5px;
+	width:100%;
+	height:4px;
+	border-top:solid 1 #E7E3E7;
+	border-bottom:solid 1 #E7E3E7;
+	background-color:#F7F7F7;
+}
+ 
+ .GridItem
+ {
+ 	font-size:9pt;
+ 	color:#444444;
+ }
+ .GridHeader
+ {
+ 	font-size:9pt;
+ 	height:30px;
+ }
+ 
+ .GridCommandButton, A.GridCommandButton
+{
+	font-size:9pt;
+	text-decoration:none;
+	color:Black;	
+}
+
+.PagerButton, A.PagerButton
+{
+	font-size:9pt;
+	color:Yellow;
+}
+
+.clsControlBar
+{
+	padding-top:5px;
+	text-align:center;
+	width:100%;
+}
+
+.clsFieldName, .clsHeaderField
+{
+	font-size:9pt;
+	color:#111111;
+	height:30px;
+	background-color:#F4F4F4;
+}
+
+.clsSelect
+{
+	font-size:9pt;
+}
+
+.clsHeaderField
+{
+	font-weight:bold;
+	text-align:center;
+}
+
+ .clsFieldName
+{
+	text-align:right;
+	padding-right:10px;
+}
+
+.clsEdit
+{
+	font-size:9pt;
+	padding-left:3px;
+	border:solid 1px #1658A2;
+}
+
+.clsFieldValue1
+{
+	color:#444444;
+	font-size:9pt;
+}
+
+.clsEditField, .clsFieldValue
+{
+	color:#444444;
+	font-size:9pt;
+	background-color:White;
+	padding-left:5px;
+}
+
+.clsTipPanel
+{
+	width:90%;
+	background-color:#F5F5F5;
+}
+
+.clsTip
+{
+	line-height:20px;
+	font-size:9pt;
+	color:#444444;
+}

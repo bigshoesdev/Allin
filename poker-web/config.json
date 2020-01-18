@@ -1,0 +1,10 @@
+﻿{
+    "connectionString": "mongodb://127.0.0.1:27017/poker",
+    "dbName": "newallin",
+    "gatewaydbName": "luckypalace",
+    "gatewaydbUser": "sa",
+    "gatewaydbPass": "partner",
+    "dbUser": "sa",
+    "dbPass": "partner",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}

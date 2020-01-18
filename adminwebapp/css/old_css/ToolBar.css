@@ -1,0 +1,41 @@
+﻿.PageToolBar
+{
+	width:100%;
+    border-bottom: #9fabbb 1px solid;
+    border-left: #9fabbb 1px solid;
+    border-right: #9fabbb 1px solid;
+    border-top: #9fabbb 1px solid;
+    background-color:#bed2fc;
+    font-family:arial,verdana,sans-serif; 
+    font-size:10pt; 
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.srcTit 
+{
+	font-family:Dotum,Gulim,Verdana,Arial;
+	font-size:9pt;
+	color:#444444;
+	letter-spacing:0;
+	word-spacing:-2;
+}
+.cmtTit
+{
+	font-family:Dotum,Gulim,Verdana,Arial;
+	font-size:9pt;
+	color:#444444;
+	letter-spacing:0;
+	word-spacing:-2;
+}
+.clsSortPanel
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 6pt;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline;
+}

@@ -1,0 +1,150 @@
+﻿/* 윗단 오른쪽 소팅 */ 
+.clsSortPanel
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 6pt;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline;
+}
+
+.clsLineTable 
+{
+	margin-top:5px;
+	width:100%;
+	height:4px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	border-left:0px; border-right:0px;
+}
+
+.clsControlBar
+{
+	clear:both;
+	margin-top:10px;
+}
+
+/* 로 정돈 */
+.clsLabelE 
+{
+	width:50px;
+}
+
+/* 추가창 위 아래 라인 */
+td .line_bar
+{
+	border-top:1px solid #858585;
+	border-bottom:1px solid #858585;
+	color:#858585;
+}
+
+/* 데이터그리드 헤더 */
+.GridHeader , th .GridHeader
+{
+	height:30px;
+	background-color:#858585;
+	
+}
+.GridHeader, .GridHeader a:link, .GridHeader a:visited, .GridHeader a:focus, .GridHeader a:hover .GridHeader a:active
+{
+	width: 100%;
+	background-color:#333;
+	color:#fcfcfc;	
+	text-decoration:none;
+}
+
+.GridCommandButton
+{
+	font-size:10pt;
+	color:#1C86EE;
+	text-align: center;
+}
+
+/* 데이터그리드 행, 데이터 부분 */
+.GridRow
+{
+	height:35px;
+	background-color: #d5f2fbf;
+}
+
+/* 데이터그리드 하단 페이징 버튼 */
+.PagerButton, .PagerButton a:link
+{
+		
+	text-decoration:none;
+}
+.PagerButton a:visited, .PagerButton a:focus, .PagerButton a:hover .PagerButton a:active
+{	
+	color:#858585;	
+	text-decoration:none;
+}
+
+/* 데이터그리드 하단 버튼들 */
+.clsButton 
+{
+	padding:3px 3 3px 3px;
+	font-size:1.2rem;
+}
+
+
+/** 왼쪽 메뉴 **/
+.bbsmenuitem 
+{
+	padding:0px 0 0px 0;
+	width:100%;
+	font-size:1.0 rem;
+	color:#4d4746;
+	background-color:#EAEAEA;
+}
+.bbsmenu 
+{
+	font-size:1.1 rem;
+	color:#858585;
+	background-color:#BFBFBF;
+}
+
+/** 기능페이지 하단 패널구분 **/
+.clsFuncPanel, .clsFuncPanel td
+{
+	border:0px;
+	margin-top:20px;
+	font-size:15px;
+	
+}
+
+/* 입력 수정 화면 테이블 */
+.clsFieldName 
+{
+	font-size:1.0 rem;
+	background-color:#ecf8ff;
+	padding:5px;
+	border:solid 1px #ccc;
+}
+.clsFieldValue
+{
+	font-size:1.0 rem;
+	background-color:#fff;
+	padding:5px;
+	border:solid 1px #ccc;
+}
+/* 입력박스 큰 사이즈 */
+.clsTextLong
+{
+	width: 300px;
+}
+
+.setting_table 
+{
+	border-right: #cacaca 1px solid;
+    font-size: 12px;
+    border: #cacaca 1px solid;
+    border-collapse: collapse;
+    width:100%;
+}
+.ch_text { padding:20px 20px;font-size: 12px;font-weight: bold;}
+
+#btnSlide a:visited, .PagerButton a:focus, .PagerButton a:hover .PagerButton a:active
+{	
+	color:White;	
+	text-decoration:none;
+}

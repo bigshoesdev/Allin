@@ -1,0 +1,370 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+	background-color:Black;
+	font-weight: normal;
+	font-size: 0.8em;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: 굴림 바탕 돋움;
+	letter-spacing: normal;
+	scrollbar-face-color: #eeeeee;
+	scrollbar-highlight-color: #f6f6f6;
+	scrollbar-3dlight-color: #dedede;
+	scrollbar-darkshadow-color: #6699cc;
+	scrollbar-shadow-color: #f6f6f6;
+	scrollbar-arrow-color: #333399;
+	scrollbar-track-color: #f6f6f6;
+	overflow: auto;
+}
+
+.clsMainTable
+{
+	width:1024px;
+	height:768px;
+	background-repeat:no-repeat;
+}
+
+.clsLoginEdit
+{
+}
+
+a.clsTopMenu
+{
+	color:#FE9901;
+	font-size:9pt;
+	text-decoration:none;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+td.clsTopMenu
+{
+	padding-right:80px;
+}
+
+a.clsTopMenu:hover
+{
+	color:#FE9901;
+	font-size:9pt;
+}
+.clsNotice
+{
+	color:#FF9966;
+	width:360px;
+	height:23px;
+	background-color:#30010B;
+	font-size:12pt;
+	border:solid 1px #FF9966;
+	padding:3 10 2 15;
+}
+a.clsViewMore
+{
+	color:#FF9966;
+	padding-top:5px;
+	border:0;
+	FONT-SIZE:8pt;
+	WIDTH:80%;
+	TEXT-ALIGN:right;
+	text-decoration:none;
+}
+.clsFooter
+{
+	color:#757575;
+	font-size:10pt;
+	padding-top:5px;
+	padding-right:60px;
+}
+
+.clsMainGrid
+{
+}
+
+A.clsLoginButton, A:Hover.clsLoginButton
+{
+	background-image:url(../images/btnLogin_A.gif);
+	border: none 0 white;
+	font-size:10pt;
+	font-weight:bold;
+	padding-top:3px;
+	color:black;
+	Width:74px;
+	Height:20px;
+}
+
+A:Hover.clsLoginButton
+{
+	background-image:url(../images/btnLogin_B.gif);
+	border: none 0 white;
+	font-size:9pt;
+	font-weight:bold;
+	padding-top:5px;
+	color:red;
+}
+
+.clsNoticeTitle
+{
+	color:#E6E3E3;
+	font-size:11pt;	
+	font-family:돋음, 굴림;
+	font-weight:bold;
+}
+
+.clsGridItem, a.clsGridItem
+{
+	font-size:10pt;	
+	color:#FF9966;
+	text-decoration:none;
+	text-align:center;
+}
+
+.clsGridItem1,.clsGridItem2,a.clsGridItem2
+{
+	font-size:10pt;	
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	font-family: 굴림 바탕 돋움;
+}
+.clsGridItem1
+{
+	font-weight:normal;
+	color:#CC9999;
+}
+
+.clsGridItem2,a.clsGridItem2
+{
+	color:#B3B3AA;
+}
+
+.clsSysTitle
+{
+	font-size:10pt;
+	color:#FF9966;
+}
+
+.clsGridHeader,.clsDVLabel,.clsDVLabel1
+{
+	color:#FF9966;
+	height:23px;
+	background-color:#30010B;
+	font-size:10pt;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.clsGridHeader
+{
+	border-bottom:solid 1px #FF9966;
+	font-size:10pt;
+}
+
+.clsGridPager
+{
+	font-size:10pt;	
+	color:#3CA3B4;
+	text-decoration:none;
+}
+
+a
+{
+	font-size:11pt;	
+	color:#FFBC06;
+	text-decoration:none;
+}
+
+.clsDivDotLine
+{
+	width:100%;
+	background-position:bottom;
+	background-image:url('../images/dot.gif');
+	background-repeat:repeat-x;
+}
+
+.clsNoticeType
+{
+	font-size:11pt;	
+	text-decoration:none;
+	margin-left:20px;
+	width:40px;
+	color:#8D9F9F;
+}
+
+.clsEdit1
+{
+	border-top:solid 1px #242424;
+	border-left:solid 1px #242424;
+	border-bottom:none;
+	border-right:none;
+	color:black;
+	background-color:#BEBEBE;
+}
+
+input.line1,.clsEdit	
+{
+	background-color:#F5F5F5; 
+	border:1px solid; 
+	font-family: "Verdana", "Arial", "돋움"; 
+	color: #444444; 
+	border-color: #B7B7B7 #EBEBEB #EBEBEB #B7B7B7; 
+	font-size: 9pt
+}
+
+.clsAlarm
+{
+	color:#EDC669;
+	font-size:10pt;
+	font-family: 바탕 돋움;
+	line-height:20px;
+	letter-spacing:1px;
+}
+
+.clsLabel
+{
+	color:#FF9966;
+	font-size:10pt;
+	font-family: 바탕 돋움;
+}
+.clsLabel2
+{
+	color:#444444;
+	font-size:9pt;
+	font-family: 바탕 돋움;
+}
+A.clsLabel
+{
+	color:#FFBC06;
+	font-size:10pt;
+	font-family: 바탕 돋움;
+}
+A:hover.clsLabel
+{
+	color:#00CC00;
+	font-size:10pt;
+	font-family: 바탕 돋움;
+}
+
+.clsLabel1
+{
+	color:#CAC5C5;
+	font-size:9pt;
+	font-family: 돋움;
+}
+.clsButton
+{
+	background:url(../images/btnbanner.gif);
+	background-repeat:repeat-x;
+	font-size:10pt;
+	border:solid 0 black;
+	padding:2 1 -1 1;
+	cursor:pointer;
+	height:30px;
+	color:#FDC792;
+}
+
+.clsButton1
+{
+	font-size:9pt;
+	background-color:#993300;
+	border:solid 0 black;
+	padding: 1 1 -3 1;
+	cursor:pointer;
+	color:#FF9966;
+}
+
+.clsSelect
+{
+	color:#FFBC06;
+	border:solid 0 #418391;
+	background-color:Black;
+	height:23px;
+}
+.clsErrorMark
+{
+	color:#E6E1C3;
+	font: icon;
+	vertical-align: super;
+}
+.clsErrors
+{
+	font-size: 10pt;
+	color: #E6E1C3;
+}
+.clsErrorTitle
+{
+	font-weight: bold;
+	font-size: medium;
+	color: #E6E1C3;
+	height: 28px;
+}
+.clsErrorPanel, .clsErrorContents
+{
+	clear: both;
+	margin-top: 5px;
+	font-size: 11pt;
+	float: none;
+	color: #E6E1C3;
+}
+H4
+{
+	margin:0 0 0 0;
+	color:red;
+	font-size:11pt;
+	font-weight:bold;
+}
+
+.clsContent,.clsContent1
+{
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	font-size:10pt;
+	overflow: auto;
+	width: 97%;
+	height: 380px;
+	color:#FF9966;
+	border-bottom:solid 1px #FF9966;
+	border-top:solid 1px #FF9966;
+}
+.clsContent2
+{
+	font-size:10pt;
+	overflow: auto;
+	width: 100%;
+	height: 610px;
+	color:#FF9966;
+}
+.clsContent1
+{
+	height:160px;
+}
+
+.clsTableDetailView
+{
+	font-size:12pt;
+	border:solid 1px #FF9966;
+	padding:3 10 2 15;
+}
+
+.clsFooterMenu,A.clsFooterMenu
+{
+	color:black;
+	font-size:10pt;
+	font-family: 바탕 돋움;
+}
+
+A:Hover.clsFooterMenu
+{
+	color:white;
+}
+
+a.clsLoginCtrl
+{
+	font-size:8pt;
+	color:#CC6600;
+}
+
+a:hover.clsLoginCtrl
+{
+	color:#FFCC99;
+}

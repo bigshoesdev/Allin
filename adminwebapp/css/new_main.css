@@ -1,0 +1,138 @@
+﻿body 
+{
+	margin:0px 0 0px 0;
+	padding:0px 0 0px 0;
+	font-family: "굴림", "굴림체", "바탕", "바탕체", system;
+	font-size:1.0rem;
+	background-color:White;
+	overflow-x:hidden;
+}
+
+input, select, button, textarea
+{
+	font-size:1.1rem;
+}
+
+a
+{
+	font-size:1.2rem;
+	color:#1C86EE;
+	text-decoration:none;
+}
+/*a:link {color:#1C86EE; text-decoration:none;}
+a:visited {color:#1C860E; text-decoration:none;}
+a:focus, a:hover {color:#fc860e; text-decoration:none;}
+a:active {color:#eC86EE; text-decoration:none;}*/
+
+table 
+{
+	margin-bottom:5px;
+	border-color:Gray;
+}
+
+th 
+{
+	font-size:1.2rem;
+	border-color:#404040;
+	text-align:center;
+}
+
+th a:link, th a:visited, th a:focus, th a:hover th a:active
+{
+	color:white;
+	text-decoration:none;
+}
+
+tr
+{	
+	background-color:White;
+}
+
+tr td 
+{
+	font-size:12px;
+	color:#333;
+	padding:5px;
+	/*padding-right:5px;*/
+	border-color:#cccccc;
+}
+
+tr td input, select, button, textarea 
+{
+	color:#575757;
+}
+
+nav { background:#186084; margin-bottom:10px;z-index:100; }
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  color:#fff;
+  z-index:100;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  color:#fff;
+  font-size:13px;
+  font-weight:500;
+  z-index:100;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  padding: 10px 14px;
+  transition: 0.3s linear;
+  text-decoration: none;
+  letter-spacing:0px;
+  z-index:100;
+}
+nav ul li a:hover {
+  color: #f9ff00;
+  text-decoration: none;
+ z-index:100;
+}
+
+nav ul li:hover { background:#183c5d; }
+
+nav ul li ul {
+  border-bottom: 5px solid #2ba0db;
+  display: none;
+  position: absolute;
+  width: 200px;
+  z-index:100;
+}
+
+nav ul li ul li {
+  border-top: 1px solid #444;
+  display: block;
+  z-index:100"
+}
+
+nav ul li ul li:first-child { border-top: none;z-index:100 }
+
+nav ul li ul li a {
+  background: #373737;
+  display: block;
+  padding: 10px 14px;
+  font-weight:500;
+  font-size:13px;
+  text-decoration: none;
+}
+
+nav ul li ul li a:hover { background: #126d9b;color: #f9ff00; }
+
+nav .fa.fa-angle-down { margin-left: 6px; }
+
+input {
+	padding: 7px;
+	border: 1px solid #5bc0de;
+	border-radius: 3px;
+	padding: 5px;
+	height: 30px;
+	font-size:12px;
+}

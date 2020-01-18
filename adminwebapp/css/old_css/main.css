@@ -1,0 +1,116 @@
+body{margin:0px 0px 0px 0px; color:#333333; font-size:12px; font-family:Dotum,돋움;}
+td{font-family:Dotum,돋움; font-size:12px; color:#bba291;line-height:20px;}
+img{border:0px;}
+form { display:inline; }
+
+a:link { font-size:12px; letter-spacing:-1px; font-family:Verdana,돋움;  text-decoration: none;color: 666666;}
+a:visited{font-size:12px; letter-spacing:-1px; font-family:Verdana,돋움; text-decoration: none;color: 666666;}
+a:hover { font-size:12px; letter-spacing:-1px; font-family:Verdana,돋움; text-decoration:  none;color: e68739;}
+
+/*얌데이 가격*/
+.price01 { font-size:16px; letter-spacing:-1px; font-family:돋움,Verdana;  text-decoration: none;color: ff7e40; font-weight:bold;}
+/*얌데이 날짜*/
+.today01 { font-size:12px; letter-spacing:-1px; font-family:돋움,Verdana;  text-decoration: none;color: cc1392; font-weight:bold;}
+
+/*상단로고 패딩*/
+.logo_pdd{padding:0px 90px 8px 6px;}
+.top_center{text-align:center;}
+/*상단메뉴바 회색 베이스*/
+.top_base{ background-image:url(/images/top_base.gif); background-repeat:repeat-x; height:104px; text-align:center;}
+.top_mn_base{background-image:url(/images/top_mn_base.gif); background-repeat:repeat-x; height:33px; vertical-align:baseline}
+/*탭메뉴 위치*/
+.top_tabMN{vertical-align:bottom}
+/*상단메뉴바 좌우측 패딩*/
+.top_mn_LR_pdd{width:46px; height:33px;}
+/*로그인부분*/
+.top_log_pdd{padding-left:20px;}
+/*서치부분*/
+.top_search_pdd{ text-align:right; padding-right:12px;}
+
+/*오렌지, 그레이색, 화이트색, 블루*/
+.col_orange{color:#f7631d; font-size:13px;}
+.col_orange2{color:#f7631d; font-size:12px;}  
+.col_gray{color:#515151; font-size:12px;}
+.col_white{color:#ffffff; font-size:12px;}
+.col_blue{color:#3ea2b3; font-size:12px; font-weight:bold;}
+
+/*메인영역 기본설정*/
+.main{vertical-align:top; text-align:center; width:897px;}
+/*메인영역 상하 공간*/
+.main_pdd{padding-top:15px; padding-bottom:75px;}
+/*메인 우측 영역*/
+.main_right_area{width:185px; vertical-align:top; padding:3px 0px 0px 20px;}
+/*상품영역*/
+.goods{vertical-align:top}
+.goods_price_pdd{padding-bottom:6px;}
+.goods_price_subjcet{padding-right:50px;}
+.goods_back{background:#e3e3e3;border:1px solid #e3e3e3;}
+.goods_today{width:350px; height:245px; text-align:center; vertical-align:middle;}
+.goods_price_time{vertical-align:bottom; text-align:right;}
+.ln_height{line-height:25px}
+.goods_item_pdd{padding-bottom:10px;}
+.goods_item_subject{padding-top:15px;}
+.goods_item{width:315px; height:120px;}
+.goods_item_arrL{height:119; width:27px; padding-left:18px; vertical-align:middle; text-align:right}
+.goods_item_arrR{height:119; width:27px; padding-right:18px; vertical-align:middle;}
+.goods_category_pdd{vertical-align:top; padding-bottom:18px;}
+.goods_category_subject{padding-left:1px; padding-bottom:3px; width:149px;}
+.goods_category_orange_ln{height:1px; background:#f7631d;}
+.goods_category_gray_ln{height:1px; background:#e3e3e3;}
+.goods_category_txt{padding-left:16px; color:#878787;}
+.goods_category_space{width:8px;}
+.goods_category_border{width:130px; height:91px; border:1px solid #e9e9e9;}
+.goods_category_name{text-align:center; color:#4b4b4b; line-height:16px; padding-top:5px;}
+.goods_categoty_price{text-align:center; color:#f7631d;}
+.goods_arraval_pdd1{vertical-align:top; padding-top:7px;}
+.goods_arraval_pdd2{padding-bottom:10px;}
+.goods_arrival_subjcet{width:110x;}
+.col_puple{color:#a371e7;}
+.goods_event_pdd{vertical-align:top; width:272px;}
+.goods_event_top{height:23px; border-left:1px solid #cccccc; border-right:1px solid #cccccc; padding:1px 15px 0px 15px;}
+.goods_event_subject{padding-right:72px;}
+.goods_event_btTxt{color:#808080; font-weight:bold}
+.goods_event_play{background-color:#d2d2d2;}
+.goods_event_player{width:270px; height:128px; background-color:#e3e3e3; text-align:center; vertical-align:middle}
+
+/*동영상연동_베스트아이템 썸네일*/
+.db_thumb{vertical-align:top;}
+.db_thumb_mid{border-left:2px solid #d1d1d1; border-right:2px solid #d1d1d1; height:89px; text-align:center;}
+/*최근게시물 베이스*/
+.main_nb_base{background-image:url(/images/n_b_base.gif); background-repeat:repeat-y;}
+/*최근게시물 중간나눔*/
+.main_nb_mid{text-align:center}
+
+/*최근게시물 기본 패딩*/
+.main_nb_pdd1{padding:0px 20px 7px 17px;}
+.main_nb_pdd2{padding:16px 20px 28px 21px;}
+
+/*최근게시물 제목패딩*/
+.main_nb_subject1{padding-bottom:8px;}
+.main_nb_subject2{padding-bottom:13px;}
+
+/*최근게시물 텍스트*/
+a:link.main_nb_txt{text-decoration:none}
+a:visited.main_nb_txt{text-decoration:none}
+a:hover.main_nb_txt{text-decoration:underline;}
+.main_nb_txt{padding_left:3px; line-height:19px; text-decoration:none}
+
+/*공지*/
+.notice_ln{height:1px; background:#bbbbbb;}
+a:link.notice_more{text-decoration:none}
+a:visited.notice_more{text-decoration:none}
+a:hover.notice_more{text-decoration:none}
+.notice_more{color:#bbbbbb; text-align:right;}
+
+/*서브메뉴 패딩*/
+.main_sub_pdd{padding:38px 4px 0px 4px;}
+/*배너패딩*/
+.main_banner_pdd{padding-top:69px;}
+/*상담센터 패딩*/
+.main_center_pdd{padding:78px 0px 0px 8px;}
+
+
+/*하단 베이스*/
+.bottom_base{height:33px; background:#9d9d9d;}
+
+.myListTheader {height:50px; background:#040499; font-size:20px; color:#990000}

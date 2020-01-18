@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" MasterPageFile="../Manager.master" AutoEventWireup="false" CodeFile="회원관리.master.cs" Inherits="회원관리_회원관리" %>
+<%@ MasterType VirtualPath="../Manager.master" %>
+
+<asp:Content ID="menuheader" ContentPlaceHolderID="head" Runat="Server">
+    <script language=javascript>
+        function CheckDouble(mode, objid, type, orgid)
+        {
+            var obj = document.getElementById(objid);
+            
+            if(obj == null) 
+            {
+                alert("오브젝트를 찾을수 없습니다.");
+                return;
+            }
+            if(type == 1)
+            {
+                if(obj.value == orgid)
+                {
+                    if(mode == "loginid")
+                        alert("이 아이디는 사용할수 있습니다.");
+                    if(mode == "nickname")
+                        alert("이 닉네임은 사용할수 있습니다.");
+                    return;
+                }
+            }
+            
+            if(obj.value == "") 
+            {
+                if(mode == "loginid")
+                    alert("로그인아이디를 입력하세요.");
+                if(mode == "nickname")
+                    alert("닉네임을 입력하세요.");
+                return;
+            }
+            
+            var Url = "../Services/CheckDouble.aspx?mode=" + mode + "&value=" + obj.value;
+            
+            // XML Request 객체 선언및 Open
+            var xmlRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            xmlRequest.open("POST", Url, false);
+            // 헤더값 설정
+            xmlRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            // 요청
+            xmlRequest.send(null);
+            //요청한값 확인하기
+            var resText = xmlRequest.ResponseText;
+            
+            if(resText == "ExistLoginID")
+            {
+                alert("이 아이디는 이미 등록되어 있습니다.");
+            }
+            else if(resText == "ExistNickName")
+            {
+                alert("이 닉네임은 이미 등록되어 있습니다.");
+            }
+            else
+            {
+                if(mode == "loginid")
+                {
+                    alert("이 아이디는 사용할수 있습니다.");
+                }
+                else if(mode == "nickname")
+                {
+                    alert("이 닉네임은 사용할수 있습니다.");
+                }
+            }
+            
+            return false;
+        }
+    </script>
+    <asp:ContentPlaceHolder id="Subhead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="submenucontent" ContentPlaceHolderID="SubMenuPlaceHolder" Runat="Server">
+    <table width=100% cellpadding=0 cellspacing=0 border=0>
+        <tr>
+            <td>
+                <div class='PageBody'>
+                <asp:ContentPlaceHolder id="BodyPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+

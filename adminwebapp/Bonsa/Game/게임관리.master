@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="../Manager.master"  AutoEventWireup="false" CodeFile="게임관리.master.cs" Inherits="게임관리_게임관리" %>
+<%@ MasterType VirtualPath="../Manager.master" %>
+<asp:Content ID="menuheader" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="Subhead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="submenucontent" ContentPlaceHolderID="SubMenuPlaceHolder" Runat="Server">
+    <table width=100% cellpadding=0 cellspacing=0 border=0>
+       
+        <tr>
+            <td>
+                <div class='PageBody'>
+                <asp:ContentPlaceHolder id="BodyPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+
